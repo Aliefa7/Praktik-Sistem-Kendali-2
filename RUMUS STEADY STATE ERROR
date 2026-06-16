@@ -1,0 +1,6 @@
+=== PILIHAN 1 ===
+>> Kdc = dcgain(sys)
+>> SSE = 1 - Kdc
+
+=== PILIHAN 2 ===
+>> Ess = abs(1 - y(end))
