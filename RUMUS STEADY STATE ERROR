@@ -4,3 +4,7 @@
 
 === PILIHAN 2 ===
 >> Ess = abs(1 - y(end))
+
+ [y,t] = step(sys);     
+y_end = y(end,:);     
+Ess = abs(1 - y_end)   
